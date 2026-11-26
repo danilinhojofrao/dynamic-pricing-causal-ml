@@ -1,7 +1,7 @@
 # SCRIPT 02: Causal Elasticity & Counterfactual Demand Curve
 
 library(tidyverse)
-set.seed(1897)
+et.seed(1897)
 
 # ==============================================================================
 # 1. Cargar datos observables
@@ -121,8 +121,6 @@ grafico_curva <- ggplot(grilla_precios, aes(
   ) + theme_minimal(base_size = 12)
 
 print(grafico_curva)  
-ggsave("outputs/curva_demanda_causal_sku101.png", plot = grafico_curva, width = 8, height = 5, dpi = 300)  
+ggsave("outputs/counterfactual_demand_causal_r.png", plot = grafico_curva, width = 8, height = 5, dpi = 300)  
   
  
-  
-  
